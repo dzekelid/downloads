@@ -25,7 +25,7 @@ apis:
   tags: Downloads
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositories-username-repo-slug-downloads-filename-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositories-username-repo-slug-downloads-filename-parameters.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
