@@ -26,7 +26,32 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositories-username-repo-slug-downloads-filename-parameters.md
+- name: Bitbucket Get Repositories Username Repo Slug Downloads
+  description: Returns a list of download links associated with the repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Downloads
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositories-username-repo-slug-downloads-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositories-username-repo-slug-downloads-get-postman.md
 x-common:
+- type: x-developer
+  url: https://developer.atlassian.com/cloud/bitbucket/
+- type: x-documentation
+  url: https://confluence.atlassian.com/bitbucket/bitbucket-cloud-documentation-221448814.html?_ga=2.77295890.629375793.1519179030-1077111323.1516485126
+- type: x-status
+  url: https://status.bitbucket.org/?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
+- type: x-support
+  url: https://support.atlassian.com/bitbucket-cloud/
+- type: x-terms-of-service
+  url: https://www.atlassian.com/legal/customer-agreement?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
+- type: x-twitter
+  url: https://twitter.com/bitbucket
+- type: x-website
+  url: https://bitbucket.org/
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
 - type: x-documentation
