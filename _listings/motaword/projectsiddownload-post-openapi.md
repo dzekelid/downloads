@@ -1,0 +1,137 @@
+---
+swagger: "2.0"
+x-collection-name: MotaWord
+x-complete: 0
+info:
+  title: Mota Word Download the latest translation package.
+  description: Download the latest translation package. You must have given a /package
+    call beforehand and wait until the packaging status is 'completed'.
+  version: alpha-0.1.0
+host: api.motaword.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /projects/{id}/download:
+    post:
+      summary: Download the latest translation package.
+      description: Download the latest translation package. You must have given a
+        /package call beforehand and wait until the packaging status is 'completed'.
+      operationId: download
+      x-api-path-slug: projectsiddownload-post
+      parameters:
+      - in: path
+        name: id
+        description: Project ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Download
+  /projects/{id}/download/{language}:
+    post:
+      summary: Download the latest translation package.
+      description: Download only the translation package of this language. You must
+        have given a /package call beforehand and wait until the packaging status
+        is 'completed'.
+      operationId: downloadLanguage
+      x-api-path-slug: projectsiddownloadlanguage-post
+      parameters:
+      - in: path
+        name: id
+        description: Project ID
+      - in: path
+        name: language
+        description: Language code
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - Download
+      - Language
+  /projects/{projectId}/documents/{documentId}/download:
+    get:
+      summary: Download a document
+      description: Download a document.
+      operationId: downloadDocument
+      x-api-path-slug: projectsprojectiddocumentsdocumentiddownload-get
+      parameters:
+      - in: path
+        name: documentId
+        description: Document ID
+      - in: path
+        name: projectId
+        description: Project ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - ProjectId
+      - Documents
+      - DocumentId
+      - Download
+  /projects/{projectId}/glossaries/{glossaryId}/download:
+    get:
+      summary: Download a glossary
+      description: Download a glossary.
+      operationId: downloadGlossary
+      x-api-path-slug: projectsprojectidglossariesglossaryiddownload-get
+      parameters:
+      - in: path
+        name: glossaryId
+        description: Glossary ID
+      - in: path
+        name: projectId
+        description: Project ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - ProjectId
+      - Glossaries
+      - GlossaryId
+      - Download
+  /projects/{projectId}/styleguides/{styleGuideId}/download:
+    get:
+      summary: Download a style guide
+      description: Download a style guide.
+      operationId: downloadStyleGuide
+      x-api-path-slug: projectsprojectidstyleguidesstyleguideiddownload-get
+      parameters:
+      - in: path
+        name: projectId
+        description: Project ID
+      - in: path
+        name: styleGuideId
+        description: Style Guide ID
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - ProjectId
+      - Styleguides
+      - StyleGuideId
+      - Download
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

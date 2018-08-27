@@ -7,37 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Downloads
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Bitbucket Get Repositories Username Repo Slug Downloads
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Downloads
+  x-api-slug: repositoriesusernamerepo-slugdownloads-get
   description: Returns a list of download links associated with the repository.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads
-  tags: Repositories, Username, Repo, Slug, Downloads
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloads-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Downloads
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Downloads
+  x-api-slug: repositoriesusernamerepo-slugdownloads-parameters
   description: Parameters repositories username repo slug downloads
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads
-  tags: Repositories, Username, Repo, Slug, Downloads
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloads-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloads-parameters-openapi.md
-- name: Bitbucket Add Repositories Username Repo Slug Downloads
-  x-api-slug: bitbucket
+- name: Bitbucket - Add Repositories Username Repo Slug Downloads
+  x-api-slug: repositoriesusernamerepo-slugdownloads-post
   description: |-
     Upload new download artifacts.
 
@@ -51,27 +53,29 @@ apis:
     then the existing file will be replaced.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads
-  tags: Repositories, Username, Repo, Slug, Downloads
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloads-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloads-post-openapi.md
-- name: Bitbucket Delete Repositories Username Repo Slug Downloads Filename
-  x-api-slug: bitbucket
+- name: Bitbucket - Delete Repositories Username Repo Slug Downloads Filename
+  x-api-slug: repositoriesusernamerepo-slugdownloadsfilename-delete
   description: Deletes the specified download artifact from the repository.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads/{filename}
-  tags: Repositories, Username, Repo, Slug, Downloads, Filename
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloadsfilename-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloadsfilename-delete-openapi.md
-- name: Bitbucket Get Repositories Username Repo Slug Downloads Filename
-  x-api-slug: bitbucket
+- name: Bitbucket - Get Repositories Username Repo Slug Downloads Filename
+  x-api-slug: repositoriesusernamerepo-slugdownloadsfilename-get
   description: |-
     Return a redirect to the contents of a download artifact.
 
@@ -82,37 +86,32 @@ apis:
         Hello World
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads/{filename}
-  tags: Repositories, Username, Repo, Slug, Downloads, Filename
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloadsfilename-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloadsfilename-get-openapi.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Downloads Filename
-  x-api-slug: bitbucket
+- name: Bitbucket - Parameters Repositories Username Repo Slug Downloads Filename
+  x-api-slug: repositoriesusernamerepo-slugdownloadsfilename-parameters
   description: Parameters repositories username repo slug downloads filename
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
   humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/downloads/{filename}
-  tags: Repositories, Username, Repo, Slug, Downloads, Filename
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloadsfilename-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/repositoriesusernamerepo-slugdownloadsfilename-parameters-openapi.md
-- name: Bitbucket
-  x-api-slug: bitbucket
-  description: Collaborate on code with inline comments and pull requests. Manage
-    and share your Git repositories to build and ship software, as a team.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
-  humanURL: http://bitbucket.org
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Downloads
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/bitbucket/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bigoven.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://bitbucket.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/bitbucket
 - type: x-developer

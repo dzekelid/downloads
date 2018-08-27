@@ -74,6 +74,36 @@ paths:
       - Repo
       - Downloads
       - Download
+    get:
+      summary: Get Repos Owner Repo Downloads Download
+      description: Deprecated. Get a single download.
+      operationId: deprecated-get-a-single-download
+      x-api-path-slug: reposownerrepodownloadsdownloadid-get
+      parameters:
+      - in: header
+        name: Accept
+        description: Is used to set specified media type
+      - in: query
+        name: access_token
+        description: Your Github OAuth token
+      - in: path
+        name: downloadId
+        description: Id of download
+      - in: path
+        name: owner
+        description: Name of repository owner
+      - in: path
+        name: repo
+        description: Name of repository
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repos
+      - Owner
+      - Repo
+      - Downloads
+      - Download
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
