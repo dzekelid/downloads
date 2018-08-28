@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/apis.md
 specificationVersion: "0.14"
 apis:
@@ -265,6 +265,68 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectidstyleguidesstyleguideiddownload-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectidstyleguidesstyleguideiddownload-get-openapi.md
+- name: Mota Word - Download a style guide
+  x-api-slug: projectsprojectidstyleguidesstyleguideiddownload-get
+  description: Download a style guide.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectidstyleguidesstyleguideiddownload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectidstyleguidesstyleguideiddownload-get-openapi.md
+- name: Mota Word - Download a glossary
+  x-api-slug: projectsprojectidglossariesglossaryiddownload-get
+  description: Download a glossary.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectidglossariesglossaryiddownload-get-openapi.md
+- name: Mota Word - Download a document
+  x-api-slug: projectsprojectiddocumentsdocumentiddownload-get
+  description: Download a document.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectiddocumentsdocumentiddownload-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsprojectiddocumentsdocumentiddownload-get-openapi.md
+- name: Mota Word - Download the latest translation package.
+  x-api-slug: projectsiddownloadlanguage-post
+  description: Download only the translation package of this language. You must have
+    given a /package call beforehand and wait until the packaging status is 'completed'.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsiddownloadlanguage-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsiddownloadlanguage-post-openapi.md
+- name: Mota Word - Download the latest translation package.
+  x-api-slug: projectsiddownload-post
+  description: Download the latest translation package. You must have given a /package
+    call beforehand and wait until the packaging status is 'completed'.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/motaword-logo.png
+  humanURL: http://www.motaword.com
+  baseURL: https://api.motaword.com//
+  tags: API Provider, Translations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsiddownload-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/motaword/projectsiddownload-post-openapi.md
 x-common:
 - type: x-website
   url: http://www.motaword.com

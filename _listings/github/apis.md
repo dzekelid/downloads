@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
@@ -189,6 +189,38 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/github/reposownerrepodownloadsdownloadid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/github/reposownerrepodownloadsdownloadid-get-openapi.md
+- name: GitHub - Get Repos Owner Repo Downloads Download
+  x-api-slug: reposownerrepodownloadsdownloadid-get
+  description: Deprecated. Get a single download.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/github/reposownerrepodownloadsdownloadid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/github/reposownerrepodownloadsdownloadid-get-openapi.md
+- name: GitHub - Delete Repos Owner Repo Downloads Download
+  x-api-slug: reposownerrepodownloadsdownloadid-delete
+  description: Deprecated. Delete a download.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
+  humanURL: https://github.com
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/github/reposownerrepodownloadsdownloadid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/github/reposownerrepodownloadsdownloadid-delete-openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-a
 x-kinRank: "8"
 x-alexaRank: "79571"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/urban-airship/apis.md
 specificationVersion: "0.14"
 apis:
@@ -140,6 +140,38 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/urban-airship/useruser-idsubscriptionscontentcontent-iddownload-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/urban-airship/useruser-idsubscriptionscontentcontent-iddownload-post-openapi.md
+- name: Urban Airship - Post User User Subscriptions Content Content Download
+  x-api-slug: useruser-idsubscriptionscontentcontent-iddownload-post
+  description: Downloads the content.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/urban-airship/useruser-idsubscriptionscontentcontent-iddownload-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/urban-airship/useruser-idsubscriptionscontentcontent-iddownload-post-openapi.md
+- name: Urban Airship - Post App Content Product Download
+  x-api-slug: appcontentproduct-iddownload-post
+  description: Returns a temporary URL where the client can download the content.
+    In the payload, the receipt string is the receipt data from the purchase. It should
+    be unaltered from how Apple delivers it to your application.udid is an optional
+    field to help identify a particular user???s purchases, which can aid debugging.
+    It should always be a hash of the UDID, not the actual UDID, to ensure compliance
+    with Apple???s TOS. The optional version field should be the StoreFront library
+    version, or custom if you???re building your own.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/75-urban-airship.jpg
+  humanURL: http://urbanairship.com/
+  baseURL: https://go.urbanairship.com//api/
+  tags: BaaS, Push Notifications, Stack Network, SaaS, Technology, Mobile, internet,
+    Relative Data, Service API, Locations, Locations, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/urban-airship/appcontentproduct-iddownload-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/urban-airship/appcontentproduct-iddownload-post-openapi.md
 x-common:
 - type: x-website
   url: http://urbanairship.com/

@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxio
 x-kinRank: "7"
 x-alexaRank: "3532345"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/fluxiom/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Fluxiom API - Download asset
+  x-api-slug: apiassetsdownloadid-get
+  description: Download asset
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/594-fluxiom.jpg
+  humanURL: http://fluxiom.com
+  baseURL: https://{subdomain}.fluxiom.com//api/{format}
+  tags: Storage, File, Technology, SaaS, internet, API Provider, Photos, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/fluxiom/apiassetsdownloadid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/fluxiom/apiassetsdownloadid-get-openapi.md
 - name: Fluxiom API - Download asset
   x-api-slug: apiassetsdownloadid-get
   description: Download asset

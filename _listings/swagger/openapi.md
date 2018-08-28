@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Swagger
 x-complete: 1
@@ -36,4 +35,3 @@ paths:
       - Generate
       - Download
       - FileId
----

@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-
 x-kinRank: "7"
 x-alexaRank: "7271"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/apis.md
 specificationVersion: "0.14"
 apis:
@@ -316,6 +316,122 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/archiverecordings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/archiverecordings-get-openapi.md
+- name: GoToAssist Remote Support - Download Recordings
+  x-api-slug: archiverecordingsurlsattributereadyfordownloadrecordingid-get
+  description: "This method retrieves download links for a list of recordings. Each
+    recording returns a link to the MP4 file, the .events file and the thumbnail.
+    If a recording is not available for download then it will be omitted from the
+    returned list. The archiving script may use the returned URLs to download each
+    resource for the recording. The URLs will be valid for at least 48 hours. The
+    URL contains a large random number so that the URL for recordings cannot be guessed.
+    The response includes the recording start time to make it easier for the archiving
+    script to place recordings in directories based on date. No more than 500 recordings
+    can be requested at once.\n\nNote: Session recording must be enabled on the account
+    in order to use this API method. To enable session recording, log in at https://app.gotoassist.com
+    (link is external) and go to Configure > GoToAssist Settings > Enable Session
+    Recording check box.\n\n  Response Parameters                  \n                    \n
+    \   field      data type      description    \n    recordingId      number      The
+    recordingId of the session recording to be downloaded    \n    recordingUrl      string
+    \     The URL of MP4 recording file    \n    recordingStartTime      ISO 8601
+    format*      The start time of recording    \n    eventsUrl      string      The
+    URL of the events recording file    \n    thumbnailUrl      string      The URL
+    of the thumbnail of recording file    \n    recordingSize      string      The
+    size of the .mp4 file in bytes    \n\n* ISO 8601 format reference\n                    \nStatus
+    Codes                    \n                    \n    Staus Code      description
+    \         \n    200 OK      A list of URLs has been returned          \n    400
+    Bad Request      Request may be malformed or property may be missing or invalid
+    \         \n    403 Forbidden      Invalid authorization header or invalid recording
+    Ids          \n    500 Internal Server Error      Unexpected server error"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2A/rest/v1
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/archiverecordingsurlsattributereadyfordownloadrecordingid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/archiverecordingsurlsattributereadyfordownloadrecordingid-get-openapi.md
+- name: GoToAssist Remote Support - Download Recordings
+  x-api-slug: archiverecordingsurlsattributereadyfordownloadrecordingid-get
+  description: "This method retrieves download links for a list of recordings. Each
+    recording returns a link to the MP4 file, the .events file and the thumbnail.
+    If a recording is not available for download then it will be omitted from the
+    returned list. The archiving script may use the returned URLs to download each
+    resource for the recording. The URLs will be valid for at least 48 hours. The
+    URL contains a large random number so that the URL for recordings cannot be guessed.
+    The response includes the recording start time to make it easier for the archiving
+    script to place recordings in directories based on date. No more than 500 recordings
+    can be requested at once.\n\nNote: Session recording must be enabled on the account
+    in order to use this API method. To enable session recording, log in at https://app.gotoassist.com
+    (link is external) and go to Configure > GoToAssist Settings > Enable Session
+    Recording check box.\n\n  Response Parameters                  \n                    \n
+    \   field      data type      description    \n    recordingId      number      The
+    recordingId of the session recording to be downloaded    \n    recordingUrl      string
+    \     The URL of MP4 recording file    \n    recordingStartTime      ISO 8601
+    format*      The start time of recording    \n    eventsUrl      string      The
+    URL of the events recording file    \n    thumbnailUrl      string      The URL
+    of the thumbnail of recording file    \n    recordingSize      string      The
+    size of the .mp4 file in bytes    \n\n* ISO 8601 format reference\n                    \nStatus
+    Codes                    \n                    \n    Staus Code      description
+    \         \n    200 OK      A list of URLs has been returned          \n    400
+    Bad Request      Request may be malformed or property may be missing or invalid
+    \         \n    403 Forbidden      Invalid authorization header or invalid recording
+    Ids          \n    500 Internal Server Error      Unexpected server error"
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2A/rest/v1
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/archiverecordingsurlsattributereadyfordownloadrecordingid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/archiverecordingsurlsattributereadyfordownloadrecordingid-get-openapi.md
+- name: GoToTraining API - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
+  description: Get download for online recordings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2T/rest
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
+- name: GoToTraining API - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
+  description: Get download for online recordings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2T/rest
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
+- name: GoToTraining API - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
+  description: Get download for online recordings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2T/rest
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
+- name: GoToTraining API - Get Download for Online Recordings
+  x-api-slug: trainingstrainingkeyrecordingsrecordingid-get
+  description: Get download for online recordings.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg
+  humanURL: http://www.LogMeInInc.com
+  baseURL: https://api.getgo.com//G2T/rest
+  tags: SaaS, Technology, Enterprise, Voice, Videoconferencing, Audio, Webinars, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/logmein/trainingstrainingkeyrecordingsrecordingid-get-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/logmein

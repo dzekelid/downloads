@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/uk-national-archives/apis.md
 specificationVersion: "0.14"
 apis:
@@ -29,6 +29,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/uk-national-archives/v3downloads-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/uk-national-archives/v3downloads-get-openapi.md
+- name: Getty Images - Post Downloads Images
+  x-api-slug: v3downloadsimagesid-post
+  description: Download an image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg
+  humanURL: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm
+  baseURL: https://api.gettyimages.com//
+  tags: Archives, Catalog, Government, History, General Data, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/uk-national-archives/v3downloadsimagesid-post-openapi.md
+- name: Getty Images - Post Downloads Veos
+  x-api-slug: v3downloadsvideosid-post
+  description: Download a video.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg
+  humanURL: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm
+  baseURL: https://api.gettyimages.com//
+  tags: Archives, Catalog, Government, History, General Data, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/uk-national-archives/v3downloadsvideosid-post-openapi.md
+- name: Getty Images - Post Downloads
+  x-api-slug: v3downloadsid-post
+  description: Download an image.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/uk-national-archives.jpeg
+  humanURL: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm
+  baseURL: https://api.gettyimages.com//
+  tags: Archives, Catalog, Government, History, General Data, Historical Data API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/uk-national-archives/v3downloadsid-post-openapi.md
 x-common:
 - type: x-website
   url: http://discovery.nationalarchives.gov.uk/SearchUI/api.htm

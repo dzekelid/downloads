@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-code
 x-kinRank: "7"
 x-alexaRank: "240033"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/codefresh/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Codefresh API - Get Progress Download
+  x-api-slug: progressdownloadid-get
+  description: Get progress download.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28738-codefresh-io.jpg
+  humanURL: https://codefresh.io
+  baseURL: https://g.codefresh.io//api
+  tags: SaaS, Technology, Enterprise, Orchestration, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/codefresh/progressdownloadid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/codefresh/progressdownloadid-get-openapi.md
 - name: Codefresh API - Get Progress Download
   x-api-slug: progressdownloadid-get
   description: Get progress download.

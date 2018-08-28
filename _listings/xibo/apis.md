@@ -9,11 +9,61 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Xibo API - Download Media
+  x-api-slug: librarydownloadmediaidtype-get
+  description: Download a Media file from the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/xibo/librarydownloadmediaidtype-get-openapi.md
+- name: Xibo API - Download Media
+  x-api-slug: librarydownloadmediaidtype-get
+  description: Download a Media file from the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/xibo/librarydownloadmediaidtype-get-openapi.md
+- name: Xibo API - Download Media
+  x-api-slug: librarydownloadmediaidtype-get
+  description: Download a Media file from the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/xibo/librarydownloadmediaidtype-get-openapi.md
+- name: Xibo API - Download Media
+  x-api-slug: librarydownloadmediaidtype-get
+  description: Download a Media file from the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/xibo/librarydownloadmediaidtype-get-openapi.md
+- name: Xibo API - Download Media
+  x-api-slug: librarydownloadmediaidtype-get
+  description: Download a Media file from the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/xibo/librarydownloadmediaidtype-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.xibo.org.uk/rss/

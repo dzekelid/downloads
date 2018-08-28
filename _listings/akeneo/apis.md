@@ -12,11 +12,179 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "164081"
 tags: Downloads
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset variation file (2.1 only)
+  x-api-slug: restv1assetspaintvariationfilesecommercenolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset, an existing channel and an activated locale if the asset is localizable
+    (it should be equal to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintvariationfilesecommercenolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
+- name: Official Akeneo PIM API - download asset reference file (2.1 only)
+  x-api-slug: restv1assetspaintreferencefilesnolocaledownload-get
+  description: Assuming that the given codes are respectively the code of an existing
+    asset and an activated locale if the asset is localizable (it should be equal
+    to "no-locale" otherwise)
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/downloads/master/_listings/akeneo/restv1assetspaintreferencefilesnolocaledownload-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.akeneo.com/feed/

@@ -19,6 +19,32 @@ produces:
 consumes:
 - application/json
 paths:
+  /echo_rest_services.get_download:
+    get:
+      summary: Combined ECHO Download Data Service
+      description: Based on the QID obtained from a get_facilities or get_facility_info
+        query, return a comma sepated vaule (CSV) file of the facilities found.
+      operationId: based-on-the-qid-obtained-from-a-get-facilities-or-get-facility-info-query-return-a-comma-sepated-va
+      x-api-path-slug: echo-rest-services-get-download-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      - in: query
+        name: qcolumns
+        description: Used to cutomize service output
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Combined
+      - ECHO
+      - Download
+      - Data
+      - Service
   /air_rest_services.get_download:
     get:
       summary: Clean Air Act Download Data Service
